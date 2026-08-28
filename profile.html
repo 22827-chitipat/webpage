@@ -3,257 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="ประวัติส่วนตัวของนักเรียน">
-    <title>My Portfolio | ประวัติส่วนตัว</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&family=Prompt:wght@300;400;500;600&display=swap" rel="stylesheet">
-
+    <title>ประวัติส่วนตัว - Portfolio ของฉัน</title>
     <link rel="stylesheet" href="style.css">
+    <link href="[https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;700&display=swap](https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;700&display=swap)" rel="stylesheet">
 </head>
-
 <body>
 
-    <header class="site-header">
-        <nav class="navbar container">
-
-            <a href="index.html" class="logo">
-                <span class="logo-mark">M</span>
-                <span>My<span>Portfolio</span></span>
-            </a>
-
-            <div class="nav-links">
-                <a href="index.html">หน้าแรก</a>
-                <a href="profile.html" class="active">ประวัติส่วนตัว</a>
-                <a href="education.html">การศึกษา</a>
-                <a href="hobby.html">งานอดิเรก</a>
-                <a href="contact.html">ติดต่อ</a>
-            </div>
-
+    <header>
+        <nav class="sticky-nav">
+            <a href="index.html" class="logo">MyPortfolio</a>
+            <ul>
+                <li><a href="index.html">หน้าแรก</a></li>
+                <li><a href="profile.html" class="active">ประวัติ</a></li>
+                <li><a href="education.html">การศึกษา</a></li>
+                <li><a href="hobby.html">งานอดิเรก</a></li>
+                <li><a href="contact.html">ติดต่อ</a></li>
+            </ul>
         </nav>
     </header>
 
-
     <main>
-
-        <section class="page-hero">
-
-            <div class="container page-hero-content">
-
-                <div>
-                    <span class="section-label">ABOUT ME</span>
-                    <h1>ประวัติ<span>ส่วนตัว</span></h1>
-                    <p>
-                        มาทำความรู้จักฉันให้มากขึ้น
-                        ผ่านเรื่องราวและข้อมูลเล็ก ๆ ที่เป็นตัวฉัน
-                    </p>
-                </div>
-
-                <div class="page-number">01</div>
-
-            </div>
-
+        <section class="page-header profile-gradient">
+            <h1>ประวัติส่วนตัวของฉัน</h1>
+            <p>รู้จักกับข้อมูลพื้นฐานของผม</p>
         </section>
-
 
         <section class="profile-section section-padding">
-
-            <div class="container">
-
-                <div class="profile-main-grid">
-
-                    <div class="profile-photo-area">
-
-                        <div class="profile-photo-bg"></div>
-
-                        <div class="profile-photo-card">
-
-                            <img
-                                src="779842224_2017210482248092_146445340649503585_n_2.jpg"
-                                alt="รูปโปรไฟล์ของฉัน"
-                            >
-
-                            <div class="photo-tag">
-                                <span>👋</span>
-                                Hello!
-                            </div>
-
-                        </div>
-
+            <div class="profile-layout">
+                <div class="profile-image-section">
+                    <div class="profile-card profile-info-image">
+                        <!-- นำรูปโปรไฟล์จริงมาใช้ที่นี่ -->
+                        <img src="image_0.png" alt="รูปโปรไฟล์ของฉัน">
                     </div>
-
-
-                    <div class="profile-info">
-
-                        <span class="section-label">WHO AM I?</span>
-
-                        <h2>
-                            สวัสดี ฉันชื่อ
-                            <span>ชิติพัทธ์ คงจันทร์</span>
-                        </h2>
-
-                        <p class="lead-text">
-                            ฉันเป็นนักเรียนชั้นมัธยมศึกษาปีที่ 3
-                            ที่ชอบเรียนรู้สิ่งใหม่ ๆ
-                            และกำลังค้นหาสิ่งที่ตัวเองสนใจ
-                            เพื่อพัฒนาทักษะและประสบการณ์ของตัวเอง
-                        </p>
-
-
-                        <div class="info-grid">
-
-                            <div class="info-box">
-                                <span class="info-icon">👤</span>
-                                <div>
-                                    <small>ชื่อเล่น</small>
-                                    <strong>ยูโร</strong>
-                                </div>
-                            </div>
-
-                            <div class="info-box">
-                                <span class="info-icon">🎂</span>
-                                <div>
-                                    <small>อายุ</small>
-                                    <strong>14 ปี</strong>
-                                </div>
-                            </div>
-
-                            <div class="info-box">
-                                <span class="info-icon">📅</span>
-                                <div>
-                                    <small>วันเกิด</small>
-                                    <strong>21/02/2555</strong>
-                                </div>
-                            </div>
-
-                            <div class="info-box">
-                                <span class="info-icon">📍</span>
-                                <div>
-                                    <small>จังหวัด</small>
-                                    <strong>เชียงใหม่</strong>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
                 </div>
-
+                <div class="profile-details-section">
+                    <div class="profile-card profile-facts">
+                        <h2>ข้อมูลเบื้องต้น</h2>
+                        <div class="fact-list">
+                            <div class="fact-item"><strong>ชื่อ-นามสกุล:</strong> ชิติพัทธ์ คงจันทร์</div>
+                            <div class="fact-item"><strong>ชื่อเล่น:</strong> ยูโร</div>
+                            <div class="fact-item"><strong>อายุ:</strong> 14</div>
+                            <div class="fact-item"><strong>วันเกิด:</strong> 21/02/2555</div>
+                            <div class="fact-item"><strong>จังหวัด:</strong> เชียงใหม่</div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-        </section>
-
-
-        <section class="about-section section-padding light-bg">
-
-            <div class="container about-grid">
-
-                <div class="section-heading">
-
-                    <span class="section-label">A LITTLE ABOUT ME</span>
-
-                    <h2>
-                        เกี่ยวกับ<span>ฉัน</span>
-                    </h2>
-
-                    <p>
-                        ฉันเชื่อว่าการเรียนรู้ไม่ได้เกิดขึ้นเฉพาะในห้องเรียน
-                        แต่ยังเกิดจากการทดลอง การทำกิจกรรม
-                        และการได้ลงมือสร้างสิ่งต่าง ๆ ด้วยตัวเอง
-                    </p>
-
+            <div class="about-me-section">
+                <div class="profile-card about-me-card">
+                    <h2>เกี่ยวกับฉัน</h2>
+                    <p>สวัสดีครับ ผมเป็นนักเรียนชั้นมัธยมศึกษาปีที่ 3 ที่มีความสนใจในหลากหลายด้าน ไม่ว่าจะเป็นการเรียนรู้สิ่งใหม่ๆ การพัฒนาตัวเอง และการค้นหางานอดิเรกที่ชอบ ผมเป็นคนเข้ากับคนอื่นได้ง่าย และชอบเรียนรู้วิธีการทำงานร่วมกันเป็นทีมครับ</p>
+                    <p>ในอนาคต ผมมีความฝันที่อยากจะเป็นคนที่มีส่วนช่วยพัฒนาสิ่งที่เป็นประโยชน์ให้กับสังคมโดยใช้ความรู้และความสนใจที่ผมมี</p>
                 </div>
-
-
-                <div class="about-details">
-
-                    <div class="quote-card">
-                        <span class="quote-mark">“</span>
-                        <p>
-                            ทุกความผิดพลาดคือโอกาสในการเรียนรู้
-                            และทุกก้าวเล็ก ๆ สามารถพาเราไปสู่เป้าหมายที่ใหญ่ขึ้นได้
-                        </p>
-                    </div>
-
-                    <div class="mini-stats">
-
-                        <div>
-                            <strong>01</strong>
-                            <span>Curious</span>
-                        </div>
-
-                        <div>
-                            <strong>02</strong>
-                            <span>Creative</span>
-                        </div>
-
-                        <div>
-                            <strong>03</strong>
-                            <span>Learning</span>
-                        </div>
-
-                    </div>
-
-                </div>
-
             </div>
-
         </section>
-
-
-        <section class="cta-section">
-
-            <div class="container">
-
-                <div class="cta-box">
-                    <div>
-                        <span class="section-label light-label">NEXT STEP</span>
-                        <h2>มาดูเส้นทางการศึกษาของฉัน</h2>
-                        <p>ไปดูว่าฉันเรียนที่ไหนและสนใจวิชาอะไร</p>
-                    </div>
-
-                    <a href="education.html" class="btn btn-white">
-                        ดูการศึกษา →
-                    </a>
-                </div>
-
-            </div>
-
-        </section>
-
     </main>
 
-
-    <footer class="site-footer">
-
-        <div class="container footer-content">
-
-            <div class="footer-brand">
-                <a href="index.html" class="logo footer-logo">
-                    <span class="logo-mark">M</span>
-                    <span>My<span>Portfolio</span></span>
-                </a>
-                <p>เว็บไซต์ Portfolio ของนักเรียนชั้นมัธยมศึกษาปีที่ 3</p>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-info">
+                <h3>MyPortfolio</h3>
+                <p>ชิติพัทธ์ คงจันทร์</p>
+                <p>ชั้น ม.3/2</p>
             </div>
-
             <div class="footer-links">
-                <h4>Navigation</h4>
-                <a href="index.html">หน้าแรก</a>
-                <a href="profile.html">ประวัติส่วนตัว</a>
-                <a href="education.html">การศึกษา</a>
-                <a href="hobby.html">งานอดิเรก</a>
-                <a href="contact.html">ติดต่อ</a>
+                <ul>
+                    <li><a href="index.html">หน้าแรก</a></li>
+                    <li><a href="profile.html">ประวัติ</a></li>
+                    <li><a href="education.html">การศึกษา</a></li>
+                    <li><a href="hobby.html">งานอดิเรก</a></li>
+                    <li><a href="contact.html">ติดต่อ</a></li>
+                </ul>
             </div>
-
         </div>
-
-        <div class="container footer-bottom">
-            <p>© 2026 ชิติพัทธ์ คงจันทร์ — Student Portfolio</p>
-            <p>Made with HTML & CSS 💙</p>
+        <div class="footer-copyright">
+            &copy; 2024 ชิติพัทธ์ คงจันทร์ - สงวนลิขสิทธิ์
         </div>
-
     </footer>
 
 </body>
